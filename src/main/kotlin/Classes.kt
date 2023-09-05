@@ -7,8 +7,6 @@ import first.Person
 3) import the package in the kotlin file (ALT +ENTER  on the class name in the kotlin file )
 or directly import package_name.class_name
 
-
-
  */
 
 
