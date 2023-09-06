@@ -1,9 +1,17 @@
+// Kotlin does not have any datatypes (it only uses objects )
+// variables do not have any default values as they are all objects
+
+// long - L at last
+// Double - D / d
+// Float - f / F
+
+//Boolean 1bit , Int 32 bit , Float 32 bit , Double 64 bit , Short 16 bit
+// Long 64bit , Byte 8bit , Char 16 bit
+
 // Variables are declared using var and val
 // var -> variables (mutable)
 // val -> constants (immutable)
 // value of var can be changed but DATA TYPE SHOULD BE SAME
-//
-
 
 fun main(args: Array<String>):Unit
 {
