@@ -8,7 +8,7 @@
 // less ceremony - no boilerplate codes, less code more function.
 // use -> Android, web, desktop
 // In kotlin, WE dont have an EXPLICIT CLASS LIKE JAVA, THE kotlin compiler internally creates a  CLASS FILE  whuch is loaded into the memory during the runtime
-// JVM -> CREATES THE CLASS FILE FROM THE .kt file and the class file is stored in the out folder
+// JVM -> CREATES THE CLASS FILE (containing byte code)  FROM THE .kt file and the class file is stored in the out folder
 
 //Package - it is a module that consists of all the classes and interfaces (separately used in the kotlin or Java code)
 
