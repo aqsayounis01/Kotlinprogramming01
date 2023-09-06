@@ -1,3 +1,6 @@
+// in case of kotlin , constructors becomes the class only
+//we need to write var here while giving the parameter
+
 class constructors(var name:String) {
     fun dis()
     {
