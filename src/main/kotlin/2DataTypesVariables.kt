@@ -1,12 +1,13 @@
 // Kotlin does not have any datatypes (it only uses classes )
 // variables do not have any default values as they are all objects
 // variables are objects
+
 // long - L at last
-// Float - f / F (by default double)
+// Float - f / F (by default double) -> single precision
 
 //Boolean 1bit , Int 32 bit , Float 32 bit , Double 64 bit , Short 16 bit
-// Long 64bit , Byte 8bit , Char 16 bit
-
+// Long 64bit , Byte 8bit , Char 16 bit (unicode character)
+//String , Array
 // Variables are declared using var and val
 // var -> variables (mutable)
 // val -> constants (immutable)
