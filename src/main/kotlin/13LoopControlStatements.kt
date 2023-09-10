@@ -1,6 +1,8 @@
-// labeled break
+// labeled break and simple break
 //name@   before the loop  is the label
 // break@name
+
+// continue - skips the rest of the code in the loop and goes to the NEXT ITERATION
 fun main(args:Array<String>)
 {
     for (i in 1..4)
@@ -26,6 +28,45 @@ fun main(args:Array<String>)
                 break@out
             }
         }
+    }
+
+
+    println()
+
+    for (i in 1..4)
+    {
+        if(i==3)
+        {
+            continue    // 3  will be skipped
+        }
+        println(i)
+    }
+    println()
+
+    for (i in 1..5)
+    {
+        for(j in 1..5)
+        {
+            if (i ==3 && j ==4)
+            {
+                continue
+            }
+            println("$i $j")
+        }
+    }
+    println()
+
+    cout@ for(i in 1..5)
+    {
+        for (j in 1..5)
+        {
+            if (i ==3 && j ==4)
+            {
+                continue@cout   //it will directly jump to the nrext iteration of the outer loop
+            }
+            println("$i $j")
+        }
+        println("hi $i")
     }
 
 

@@ -16,7 +16,7 @@ fun main(args:Array<String>)
         i++
     }
     do{
-        println("do while")         // it will only print once because alreday the value of i=6
+        println("do while")         // it will only print once because already the value of i=6
         i++
     }while(i<=5)
 }
