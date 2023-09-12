@@ -20,13 +20,19 @@
  this is a multiline comment
  */
 
+
+//readln - for input
+// println - for displaying
 fun main(args:Array<String>): Unit      //Array of Strings
 {
     print("hello world!\n")
     println("This will print a new line also.")
     println(6-7)
-    print(true)
-
+    println(true)
+    var a = readln().toInt()
+    println(a)
+    var b = readln().toInt()
+    println(a+b)
 
 }
 
