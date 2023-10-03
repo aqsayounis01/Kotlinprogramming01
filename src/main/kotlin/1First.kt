@@ -21,7 +21,7 @@
  */
 
 
-//readln - for input
+//readLine - for input
 // println - for displaying
 fun main(args:Array<String>): Unit      //Array of Strings
 {
@@ -29,10 +29,19 @@ fun main(args:Array<String>): Unit      //Array of Strings
     println("This will print a new line also.")
     println(6-7)
     println(true)
+
+    // input
+    //? after variable dataype- user may or may not enter data
+    //!! after the readline() - user will surely enter the data
     var a = readln().toInt()
     println(a)
     var b = readln().toInt()
     println(a+b)
-
+    println()
+    var c:String=readLine()!!
+    println(c)
+    println()
+    var d:String?= readLine()
+    println(d)
 }
 
