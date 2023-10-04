@@ -1,5 +1,10 @@
-// in case of kotlin , constructors becomes the class only
+// in case of kotlin , constructors becomes the class only (primary constructor)
 //we need to write var here while giving the parameter
+//Primary constructor -> class class_name constructor(variables){init{ }}  or like the one that is defined
+//below
+//secondary constructor -> inside the  class it is defined
+
+
 
 class constructors(var name:String) {
     fun dis()
