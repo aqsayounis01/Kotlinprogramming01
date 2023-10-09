@@ -62,7 +62,7 @@ fun main(args:Array<String>)
         {
             if (i ==3 && j ==4)
             {
-                continue@cout   //it will directly jump to the nrext iteration of the outer loop
+                continue@cout   //it will directly jump to the next iteration of the outer loop
             }
             println("$i $j")
         }

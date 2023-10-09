@@ -1,4 +1,5 @@
 // for loop
+//forEach (it is a method)
 // while loop - same as in c++
 // do while - same as in c++
 
@@ -9,6 +10,10 @@ fun main(args:Array<String>)
     {
         println("hello ")
     }
+    println()
+    print("FOREACH")
+    var a = arrayOf(1,2,3,4,5)
+    a.forEach { print(it) }   //it represents the element of the array
     var i=1;
     while(i<=5)
     {

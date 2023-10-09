@@ -1,4 +1,4 @@
-//class does not occupy any space in the memory
+//class does not occupy any space in the memory (final by default)
 //object occupies once it is made
 //instance varibales must be initialized or declared as null
 // access modifiers -> private , protected , internal, public

@@ -1,7 +1,7 @@
 //arrayOf(1,2,3,4,5)
 //Array<Int>(5){0}
 //array_name[index] -  to access the elements
-//.size - no of elements present in the array
+//.size - no of elements present in the array  viceversa of c++
 fun main(args:Array<String>)
 {
     var a = arrayOf(1,2,3,4,5, "hi")

@@ -3,17 +3,22 @@
 //when as expression (like if else)
 fun main(args:Array<String>)
 {
-    var x=2
-    when(x)
+    var x=10
+    var str=""
+    str=when(x)     //when as expression ( but then the last statement in all the cases should be of the matching return type
     {
-        0,4,5,1->println("value of x is 1")   //1 or 0 or 4 or 5
+        0,4,5,1->"value of x is 1"   //1 or 0 or 4 or 5
 //        2 -> {
 //            println("value of x is 2")
 //            println(ls
 //            "Hello world")
 //        }
-       !in 1..3 -> println("value of x is 3")
-        else -> println("Invalid Input")
+       !in 1..3 ->"value of x is 10"
+        else -> {
+            println("Invalid Input")
+            "invalid"
+        }
     }
+    println(str)
 }
 
