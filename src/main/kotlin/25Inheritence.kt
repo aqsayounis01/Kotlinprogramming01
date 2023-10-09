@@ -1,6 +1,7 @@
 //Inheritance -> it is used where ever there is  a is-a relationship between the classes
 //classes cannot be overwritten
 //as we know that the classes are final in kotlin , so we need to open the class that is to be inherited
+//we write the constructor instead of class (at the time of inheritence)
 open class Vehicle
 {
     var model:String?="123"
