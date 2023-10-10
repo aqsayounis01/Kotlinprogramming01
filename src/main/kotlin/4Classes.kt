@@ -5,7 +5,7 @@
 //private -> only accessed in the class in which it is made
 // protected -> same as private but it is also accessed in the subclass
 //internal -> anyone inside the same package
-//public -> anyone
+//public -> anyone 9by default)
 import first.Person
 
 //TO IMPORT A CLASS IN OUR KOTLIN FILE:
